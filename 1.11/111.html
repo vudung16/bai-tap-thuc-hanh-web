@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển trên form</title>
+    <link rel="stylesheet" href="css/111.css">
+</head>
+<body>
+    <h1 id="p">Đăng nhập</h1>
+    <form action="" id="dangnhap">
+        <table id="table" align="center" border="1">
+            <tr>
+                <td value="">Mã người dùng:</td>
+                <td><input type="text" id="taikhoan" ></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu:</td>
+                <td><input type="password" id="matkhau"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" id="dongy" value="Đồng ý" onclick="innerHeight">
+                </td>  
+            </tr>
+            <tr>
+                    <td colspan="2" ><center><div style="height:20px " id="in"></div></center></td>
+            </tr>
+            <script type="text/javascript">
+                var maND=document.getElementById("taikhoan");
+                var hienthi=document.getElementById("in");
+                var bt=document.getElementById("dongy");
+                bt.onclick=function(){hienthi.innerHTML=maND.value;}
+            </script>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+        <form> <center><h1 style="color: rgb(7, 58, 13)">Đăng ký du lịch</h1></center>
+            <center><table border="1" style="background-color: wheat; color: red">
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text" id="hoten"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ</td>
+                    <td><input type="text" id="diachi"></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại</td>
+                    <td><input type="text" id="dienthoai"></td>
+                </tr>
+                <tr>
+                    <td>Khách Việt Nam</td>
+                    <td><input type="checkbox" id="kvn"></td>
+                </tr>
+                <tr>
+                    <td>Chọn tour</td>
+                    <td>
+                        <select id="tour">
+                           <optgroup label="Miền bắc">
+                                   <option value="Hà nội-hạ long-sapa">Hà nội-hạ long-sapa</option>
+                                   <option value="Hà nội-chùa hương-ninh bình">Hà nội-chùa hương-ninh bình</option>
+                                   <option value="Hà nội-cát bà-tuần châu">Hà nội-cát bà-tuần châu</option>
+                            </optgroup>  
+                            <optgroup label="Miền trung">
+                                    <option value="Huế-bạch mã-đà nẵng">Huế-bạch mã-đà nẵng</option>
+                                    <option value="Nha trang-đà lạt">Nha trang-đà lạt</option> 
+                                    <option value="Buôn mê thuột-gia lai-kontum">Buôn mê thuột-gia lai-kontum</option>
+                            </optgroup> 
+                            <optgroup label="Miền nam">
+                                    <option value="tphcm-cần thơ-cà ma  u">tphcm-cần thơ-cà mau</option>
+                                    <option value="tphcm-mỹ tho">tphcm-mỹ tho</option>  
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Phương tiện</td>
+                    <td>
+                        <fieldset>
+                                <input name="gioitinh" type="radio" value="Máy bay" />Máy bay
+                                <input name="gioitinh" type="radio" value="Ô tô" />Ô tô
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Số lượng đoàn khách</td>
+                    <td>
+                        <fieldset style="width:350px; height:55px; border: black">
+                            <legend align="center" style="font-style: inherit; color: rgb(141, 31, 92);">
+                                Người lớn  <input type="number" name="Người lớn" id="nguoilon"><br><br>
+                                Trẻ em <input type="number" name="Trẻ em" id="treem">
+                            </legend>
+                            
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ghi chú thêm</td>
+                    <td>
+                        <textarea name="ghichu" id="gc" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><button type="button" id="dongy">Đồng ý</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><div style="height:20px " id="id1"></div></td>
+                </tr>
+                <script type="text/javascript">
+                    
+                </script>
+        
+            </table></center>
+            </form>
+</body>
+</html>

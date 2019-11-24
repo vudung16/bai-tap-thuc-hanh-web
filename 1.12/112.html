@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tạo form và các điều khiển</title>
+</head>
+<body>
+   
+    <form> <center><h1 style="color: rgb(7, 58, 13)">Phiếu đăng kí tham gia chương trình khuyến mãi</h1></center>
+    <center><table border="1" style="background-color: mediumaquamarine; color: red">
+        <tr>
+            <td>Họ và tên</td>
+            <td><input type="text" id="hoten"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" id="diachi"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="text" id="dienthoai"></td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                    <form>
+                            <input name="gioitinh" type="radio" value="Nam" />Nam
+                            <input name="gioitinh" type="radio" value="Nữ" />Nữ
+                    </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Nghề nghiệp</td>
+            <td>
+                <select id="nghenghiep">
+                    <option>Bác sĩ</option>
+                    <option>Kĩ sư</option>
+                    <option>Giáo viên</option>
+                    <option>Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Chọn sản phẩm tham gia</td>
+            <td><select id="sanpham" size="4" multiple>
+                    <option>Kem đánh răng</option>
+                    <option>Bột giặt</option>
+                    <option>Dầu gội đầu</option>
+                    <option>Sữa tắm</option>
+                </select>
+            </td></td>
+        </tr>
+        <tr>
+            <td>số người dự đoán tham gia</td>
+            <td><input type="text" id="dudoan"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><button type="button" id="dongy">Đồng ý</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><div style="height:20px " id="id1"></div></td>
+        </tr>
+        <script type="text/javascript">
+            
+        </script>
+
+    </table></center>
+    </form>
+</body>
+</html>

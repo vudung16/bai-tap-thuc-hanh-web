@@ -1,0 +1,25 @@
+#table{
+    width: 900;
+    border: 1px solid crimson;
+    background-color:white;
+    
+}
+figure{
+    border: 1pt solid #a8a8a8;
+    background-color: #EDEDDD;
+    margin: 1px;
+    padding: 5px;
+    width: 80px;
+    float: left;
+}
+
+
+#table ul {
+    position:absolute;
+    left: 15px;
+    top: 100px;
+}
+#table tr td div p{
+text-align: right;
+}
+
